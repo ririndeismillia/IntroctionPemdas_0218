@@ -3,3 +3,8 @@ using namespace std;
 
 //variable global
 int sks;
+
+int main (){
+    //variabel lokal
+    
+}
