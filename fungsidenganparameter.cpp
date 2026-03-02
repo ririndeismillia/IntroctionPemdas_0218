@@ -10,3 +10,17 @@ void input(){
     cout << "Masukkan Lebar : ";
     cin >> lebar;
 }
+int luasPersegi(int a,int b){
+    return a * b;
+}
+int luasPersegi(int x, int y, int z){
+    return x+y+z;
+}
+void output(){
+    cout << "Hasilnya : " << luasPersegi(panjang,lebar) << endl;
+}
+int main(){ //mulai
+    input();
+    output();
+    cout << "Hasil dari Penjumlahan : " << jumlah(3,2,7);
+} //selesai
